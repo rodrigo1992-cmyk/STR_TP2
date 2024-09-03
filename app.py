@@ -11,7 +11,8 @@ from plotly.subplots import make_subplots
 import pydeck as pdk
 import math
 
-
+st.write('#Rodrigo_Mesquita_DR1_TP2')
+st.write('##Desenvolvimento Front-End com Python (com Streamlit) [24E3_1]')
 
 #--------------------------EXERCICIO 1--------------------------------
 st.write('# 1.Importância da Visualização de Dados')
