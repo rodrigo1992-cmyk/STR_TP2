@@ -115,7 +115,7 @@ df_plot = df_plot.dropna(subset=['latitude', 'longitude'])
 df_plot['size'] = (df_plot['casosAcumulado'] /  max(df_plot['casosAcumulado'])) * 10000
 
 st.write('# 5.Mapa com Streamlit')
-st.wirte('*Crie um mapa interativo utilizando a função st.map do Streamlit que mostre a distribuição dos casos acumulados de COVID-19 por município em um estado específico. Explique como esse tipo de visualização pode ajudar na análise geográfica da pandemia.*')
+st.write('*Crie um mapa interativo utilizando a função st.map do Streamlit que mostre a distribuição dos casos acumulados de COVID-19 por município em um estado específico. Explique como esse tipo de visualização pode ajudar na análise geográfica da pandemia.*')
 st.write("Plotar dados georeferenciados pode auxiliar a observar aglutinações por proximidade.")
 st.write("#### Total de Casos de COVID-19")
 st.map(df_plot, latitude = 'latitude', longitude = 'longitude', size = 'size')
